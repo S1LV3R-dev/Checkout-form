@@ -1,0 +1,49 @@
+@import './base.css';
+@import './card.css';
+@import './order.css';
+
+body{
+  background-color: #e0eaed;
+}
+
+#app {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+#checkout_form{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+}
+
+#checkout_form > div{
+  margin: 0px 20px;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  #app {
+    display: grid;
+    padding: 0 2rem;
+  }
+}

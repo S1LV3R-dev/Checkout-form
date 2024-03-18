@@ -1,0 +1,112 @@
+#card_number{
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#card_info{
+    box-shadow: #ddd 1px 1px 25px;
+    background-color: #fff;
+    padding: 25px;
+    flex: 1 1 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#chip_img{
+    filter: contrast(.05) brightness(1.2);
+    background-color: lightgrey;
+    height: 50px;
+    width: fit-content;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-filter: contrast(.05) brightness(1.2);
+}
+
+#card{
+    box-shadow: #999 2px 3px 15px;
+    color: white;
+    text-shadow: #111 2px 3px 15px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(134,59,238,1) 0%, rgba(75,186,209,1) 100%);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px auto;
+    padding: 30px 40px;
+    padding-top: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#card_number {
+    margin: 35px 0;
+}
+
+#card_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#card_bottom_left{
+    align-items: start;
+}
+
+#card_bottom_right{
+    align-items: end;
+}
+
+#card_info_input, #card_info_expiration_date, #cvc, #card_bottom_left, #card_bottom_right {
+    display: flex;
+    flex-direction: column;
+}
+
+#card_info_bottom{
+    display: flex;
+}
+
+#cvc, #card_info_expiration_date {
+    justify-content: space-between;
+}
+
+#cvc > div{
+    display: flex;
+}
+
+#card_info_expiration_date{
+    flex: 1 1 66%;
+}
+
+#cvc{
+    flex: 1 1 33%;
+}
+
+#card_info_inputs{
+    display: flex;
+}
+
+#card_info_inputs > input{
+    display: block;
+    flex: 1 1 50%
+}
+
+.card_label{
+    font-size:14px;
+}
+
+.card-info-input-field{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 40px;
+    padding:5px;
+    font-size:20px;
+    width: 100%;
+}
