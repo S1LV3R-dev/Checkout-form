@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch } from 'vue';
-const name = ref("FULL NAME");
+const name = ref("");
 const value = ref("");
 const mask = "####-####-####-####";
 const month = ref();
@@ -44,7 +44,7 @@ watch(year, (newValue, oldValue) => {
 </script>
 
 <template>
-    <div id="card_info">
+    <form id="card_info">
         <h3>Payment information</h3>
         <div id="card">
             <div id="chip_img">
@@ -79,19 +79,25 @@ watch(year, (newValue, oldValue) => {
                 <div id="card_info_expiration_date">
                     <span class="card_info_label">Expiration date</span>
                     <div id="card_info_inputs">
-                        <input class="card-info-input-field" id="month" type="text" v-mask="'##'" @input="minmax" v-model="month" placeholder="Month" />
-                        <input class="card-info-input-field" id="year" type="text" v-mask="'##'" v-model="year" placeholder="Year" />
+                        <input class="card-info-input-field small-input-field" id="month" type="text" v-mask="'##'" @input="minmax" v-model="month" placeholder="Month" />
+                        <input class="card-info-input-field small-input-field" id="year" type="text" v-mask="'##'" v-model="year" placeholder="Year" />
                     </div>
                 </div>
                 <div id="cvc">
                     <span class="card_info_label">CVC</span>
                     <div>
-                        <input class="card-info-input-field" id="cvc_input" type="text" mask="'###'" />
+                        <input class="card-info-input-field small-input-field" id="cvc_input" type="text" mask="'###'" />
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div id="price_tag">
+            {{ price }} USD
+        </div>
+        <div id="confirm">
+            <button>Confirm payment</button>
+        </div>
+    </form>
 </template>
 
 <style>
