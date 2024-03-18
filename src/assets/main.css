@@ -21,6 +21,11 @@ body{
 
 #checkout_form > div{
   margin: 0px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 a,
@@ -46,4 +51,8 @@ a,
     display: grid;
     padding: 0 2rem;
   }
+}
+
+h3 {
+  font-size: 28px;
 }

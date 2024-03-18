@@ -4,12 +4,15 @@
     letter-spacing: 5px;
 }
 
-#card_info {
+#card_info_block{
     box-shadow: #ddd 1px 1px 25px;
     background-color: #fff;
     padding: 25px;
     flex: 1 1 60%;
     height: fit-content;
+}
+
+#card_info {
     display: flex;
     flex-direction: column;
 }
