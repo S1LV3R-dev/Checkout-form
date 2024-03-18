@@ -1,5 +1,4 @@
 <script setup>
-import { defineProps } from "vue";
 import orderItem from "./order_item.vue";
 const props = defineProps({'orders': Array});
 const orders = props.orders;
