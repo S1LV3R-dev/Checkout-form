@@ -1,70 +1,70 @@
 #card_number {
-  font-family: 'Roboto Mono';
-  font-weight: bold;
-  letter-spacing: 5px;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    letter-spacing: 5px;
 }
 
 #card_info_block {
-  box-shadow: #ddd 1px 1px 25px;
-  background-color: #fff;
-  padding: 25px;
-  flex: 1 1 60%;
-  height: fit-content;
+    box-shadow: #ddd 1px 1px 25px;
+    background-color: #fff;
+    padding: 25px;
+    flex: 1 1 60%;
+    height: fit-content;
 }
 
 #card_info {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #chip_img {
-  filter: contrast(0.05) brightness(1.2);
-  background-color: lightgrey;
-  height: 50px;
-  width: fit-content;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  -webkit-filter: contrast(0.05) brightness(1.2);
+    filter: contrast(0.05) brightness(1.2);
+    background-color: lightgrey;
+    height: 50px;
+    width: fit-content;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-filter: contrast(0.05) brightness(1.2);
 }
 
 #card {
-  box-shadow: #999 2px 3px 15px;
-  color: white;
-  text-shadow: #111 2px 3px 15px;
-  border-radius: 20px;
-  background: linear-gradient(90deg, rgba(134, 59, 238, 1) 0%, rgba(75, 186, 209, 1) 100%);
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 25px auto;
-  padding: 30px 40px;
-  padding-top: 40px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+    box-shadow: #999 2px 3px 15px;
+    color: white;
+    text-shadow: #111 2px 3px 15px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(134, 59, 238, 1) 0%, rgba(75, 186, 209, 1) 100%);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px auto;
+    padding: 30px 40px;
+    padding-top: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 #card_number {
-  margin: 35px 0;
+    margin: 35px 0;
 }
 
 #card_bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #card_bottom_left {
-  align-items: start;
+    align-items: start;
 }
 
 #card_bottom_right {
-  align-items: end;
+    align-items: end;
 }
 
 #card_info_input,
@@ -72,97 +72,97 @@
 #cvc,
 #card_bottom_left,
 #card_bottom_right {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #card_info_bottom {
-  display: flex;
+    display: flex;
 }
 
 #cvc,
 #card_info_expiration_date {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 #cvc > div {
-  display: flex;
+    display: flex;
 }
 
 #card_info_expiration_date {
-  flex: 1 1 66%;
+    flex: 1 1 66%;
 }
 
 #cvc {
-  flex: 1 1 33%;
+    flex: 1 1 33%;
 }
 
 #card_info_inputs {
-  display: flex;
+    display: flex;
 }
 
 #card_info_inputs > input {
-  display: block;
-  flex: 1 1 50%;
+    display: block;
+    flex: 1 1 50%;
 }
 
 .card_label {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .card-info-input-field {
-  margin-top: 5px;
-  margin-bottom: 15px;
-  height: 40px;
-  padding: 5px;
-  font-size: 20px;
-  width: 100%;
-  border: 1px grey solid;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+    border: 1px grey solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .small-input-field {
-  margin: 5px;
+    margin: 5px;
 }
 
 #month {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 #cvc {
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 #cvc_input {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 #price_tag {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  width: 95%;
-  height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 95%;
+    height: 40px;
 }
 
 #confirm,
 #confirm > button {
-  width: 100%;
-  height: 40px;
+    width: 100%;
+    height: 40px;
 }
 #confirm > button {
-  color: white;
-  background-color: rgba(55, 166, 180, 1);
-  border: none;
-  font-size: 20px;
-  font-family: 'Roboto mono';
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+    color: white;
+    background-color: rgba(55, 166, 180, 1);
+    border: none;
+    font-size: 20px;
+    font-family: 'Roboto mono';
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
