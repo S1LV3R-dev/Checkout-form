@@ -108,7 +108,7 @@ watch(year, (newValue, oldValue) => {
                                 class="card-info-input-field small-input-field"
                                 id="cvc_input"
                                 type="text"
-                                mask="'###'"
+                                v-mask="'###'"
                             />
                         </div>
                     </div>
